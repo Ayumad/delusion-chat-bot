@@ -49,3 +49,59 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+
+.Header {
+  background-color: #3B2716;
+  /* Very dark brown color */
+  padding: 50px 0;
+  /* Some padding to space things out */
+  text-align: center;
+  /* Center the text in the header */
+  color: white;
+  /* Make the text color white for better contrast */
+  width: 100%;
+  /* Ensure it spans the entire width */
+  /* height: 100vh; */
+  /* Set the height to 100% of the viewport height */
+  margin: 0;
+  /* Remove any default margin */
+  box-sizing: border-box;
+  /* Ensure padding doesn't affect the total width/height */
+}
+
+/* Gradient background for the entire page */
+.App {
+  background: linear-gradient(to bottom, #FAEACB, #E4D5B0);
+  /* light brown/beige gradient */
+  min-height: 100vh;
+  /* Ensure the gradient covers the full view height */
+  display: flex;
+  flex-direction: column;
+  /* Make sure children are stacked vertically */
+  align-items: center;
+  /* Center the content horizontally */
+}
+
+/* You might want to add some spacing between the header and the chatbox for better layout */
+.ChatBox {
+  margin-top: 20px;
+}
+
+.chat-box {
+  max-width: 700px;
+  /* Increased the width from 400px to 700px */
+  margin: 50px auto;
+  border: 1px solid #ddd;
+  padding: 30px;
+  /* Increased the padding for a larger internal spacing */
+  border-radius: 8px;
+  /* Slightly larger border-radius for smoother edges */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  /* Slightly more pronounced shadow for the larger box */
+}
+
+.messages {
+  max-height: 600px;
+  /* Increased the height from 400px to 600px */
+  overflow-y: auto;
+}
