@@ -19,12 +19,12 @@
 }
 
 .message.user {
-  background-color: #e9e9e9;
+  background-color: #ffd1e8; /* Light Pink for user messages */
   align-self: flex-end;
 }
 
 .message.bot {
-  background-color: #aee5d8;
+  background-color: #ff80b3; /* Slightly Darker Pink for bot messages */
   align-self: flex-start;
 }
 
@@ -44,15 +44,14 @@ input {
 button {
   padding: 10px 15px;
   border: none;
-  background-color: #eaaf5c;
+  background-color: #ff66a5; /* Pinkish Button */
   color: white;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .Header {
-  background-color: #3B2716;
-  /* Very dark brown color */
+  background-color: #9c004f; /* Dark Pink */
   padding: 50px 0;
   /* Some padding to space things out */
   text-align: center;
@@ -71,7 +70,7 @@ button {
 
 /* Gradient background for the entire page */
 .App {
-  background: linear-gradient(to bottom, #FAEACB, #E4D5B0);
+  background: linear-gradient(to bottom, #ffc1e3, #ff9ab3); /* Light Pink Gradient */
   /* light brown/beige gradient */
   min-height: 100vh;
   /* Ensure the gradient covers the full view height */
@@ -88,7 +87,8 @@ button {
 }
 
 .chat-box {
-  max-width: 700px;
+  min-height: 50vh;
+  min-width: 75vh;
   /* Increased the width from 400px to 700px */
   margin: 50px auto;
   border: 1px solid #ddd;
